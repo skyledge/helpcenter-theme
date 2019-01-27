@@ -11,7 +11,8 @@
       <div class="column column--sm-4">
         <div class="article-sidebar">
           <section class="section-articles">
-            <h3 class="section-articles__title">{{t 'articles_in_section'}}</h3>
+            {{!-- <h3 class="section-articles__title">{{t 'articles_in_section'}}</h3> --}}
+            <h3 class="section-articles__title">{{section.name}} {{section.id}} of {{section.article_count}}</h3>
             <ul class="section-articles__list">
               {{#each section.articles}}
                 <li class="section-articles__item">

@@ -195,7 +195,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: $font_family_base;
+  font-family: 'Open Sans', sans-serif;
   font-size: $font_size_base;
   line-height: $line_height_base;
   color: $text_color;
@@ -2616,7 +2616,7 @@ input[type="search"]:focus {
   margin-bottom: calc($font_size_base * $line_height_base);
 }
 .section__title {
-  font-size: 22px;
+  font-size: calc(font_size_base * 1.2);
   font-weight: 300;
 }
 .section__title-link {
@@ -2660,7 +2660,7 @@ input[type="search"]:focus {
 }
 .article__title {
   font-size: calc($font_size_base * 1.5);
-  font-weight: 600;
+  font-weight: 400;
 }
 @media (min-width: 1200px) {
 .article__title {
@@ -2724,8 +2724,10 @@ input[type="search"]:focus {
   margin-bottom: calc($font_size_base * $line_height_base);
 }
 .article__body h2 {
-    font-size: calc($font_size_base * 1.75);
-    font-weight: 400;
+    font-size: calc($font_size_base * 1.25);
+    color: #9aa0a9;
+    text-transform: uppercase;
+    font-weight: 600;
     line-height: 1.2;
   }
 .article__body .wysiwyg-font-size-x-large {
@@ -4766,7 +4768,7 @@ input[type="search"]:focus {
 }
 .profile-section__title {
   margin-bottom: calc($font_size_base * $line_height_base / 2);
-  font-size: calc($font_size_base * 1.5);
+  font-size: calc($font_size_base * 1.2);
 }
 .profile-section__description {
   font-size: calc($font_size_base * 0.85);

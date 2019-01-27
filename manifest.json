@@ -40,7 +40,7 @@
           "type": "color",
           "description": "Text color for link elements",
           "label": "Link color",
-          "value": "#504d7f"
+          "value": "#344153"
         }
       ]
     },
@@ -52,7 +52,7 @@
           "type": "text",
           "description": "Size for body text",
           "label": "Text size",
-          "value": "16px"
+          "value": "14px"
         },
         {
           "identifier": "font_family_base",
